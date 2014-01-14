@@ -1,10 +1,6 @@
 $(document).ready(function(){
   var teamsRef = new Firebase('https://bearseatbeets.firebaseio.com/teams');
 
-  $(".team").click(function(){
-    $(this).toggleClass('selection');
-  });
-
   $('#button').click(function() {
     var $selection = $('.selection');
 
