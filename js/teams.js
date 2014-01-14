@@ -2,6 +2,7 @@ $(document).ready(function(){
   var teamsRef = new Firebase('https://bearseatbeets.firebaseio.com/teams');
 
   $(".team").click(function(){
+	// poopoo
     $(this).toggleClass('selection');
   });
 
