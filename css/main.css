@@ -5,3 +5,58 @@
 .selected {
     background-color: yellow;
 }
+
+.left {
+	float: left;
+	background-color: yellow;
+	width: 45%;
+	height: 100%;
+}
+
+.right {
+	float: right;
+	background-color: yellow;
+	width: 45%;
+	height: 100%;
+}
+
+.region {
+	width: 100%;
+	height: 50%;
+	float: left;
+	clear: left;
+}
+
+.round1 {
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-color: #ffffff;
+}
+
+.team {
+	width: 100%;
+	height: 6.25%;
+}
+#bracket_main {
+	width: 85%;
+	height: 800px;
+	border-style: dotted;
+	border-width: 1px;
+}
+
+#midwest {
+	background-color: red;
+}
+
+#west {
+	background-color: gray;
+}
+
+#south {
+	background-color: red;
+}
+
+#east {
+	background-color: gray;
+}
